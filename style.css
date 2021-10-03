@@ -1,0 +1,66 @@
+*
+{
+    padding: 0%;
+    margin: 0;
+}
+body 
+{
+    height: 200vh;
+    /* padding: 40px; */
+    
+  
+}
+.burger
+{
+    position:fixed;
+    top:50px; 
+    right:100px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+
+.wrapper
+{
+    margin-top:30px;
+    margin-left: 20px;
+    width: 80vw;
+    line-height: 40px;
+    transition: 0.3s linear;
+
+
+
+}
+.wrapper.active
+{
+    padding-top: 30vh;
+}
+.fas 
+{
+    color: grey;
+    display: none;
+    
+}
+.active
+{
+    display: block;
+}
+
+
+.menu 
+{
+    
+    height: 30vh; 
+    background-color: black;
+    width: 100%;
+    position: fixed; 
+    top:0;
+    left: 0;
+    transition: 0.3s linear;
+
+}
+.menu.active
+{
+    top:-30vh;
+}
